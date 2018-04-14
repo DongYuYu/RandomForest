@@ -1,0 +1,12 @@
+Implemented ensemble algorithm, RandomForest, randomly selects sub samples with size = bR * sample size from the sample (with replacement) and uses the fS number of sub features to build the trees, and classify the sample by voting the major results of the trees
+
+
+Dependecny:
+
+Scalation (http://cobweb.cs.uga.edu/~jam/scalation.html)
+sbt
+
+Instruction:
+
+To use this, please run this command in sbt console:
+runMain scalation.analytics.classifier.RandomForestTest
